@@ -1,38 +1,21 @@
-INSERT INTO departments (department_name)
-VALUES 
-('Executive Board'),
-('Marketing'),
-('Human Resources'),
-('Finance'),
-('Engineering'),
-('Information Technology'),
-('Customer Relations'),
-('Research and Development'),
-('Legal'),
-('Maintenance');
+INSERT INTO department (name) 
+VALUES  ('Human Resources'),
+        ('Engineering'),
+        ('Maintenance'),
+        ('Quality Assuarnce');
 
-INSERT INTO roles (title, salary, department_id)
-VALUES 
-('Chief Executive Officer', 555000.00, 1),
-('Marketing Manager', 125000.00, 2),
-('HR Director', 189000.00, 3),
-('Finance Head', 145000.00, 4),
-('Senior Engineer', 185000.00, 5),
-('IT Manager', 125000.00, 6),
-('Customer Relations Manager', 75000.00, 7),
-('Research and Development Manager ', 185000.00, 8),
-('Legal Manager', 95000.00, 9),
-('Maintenance Manager', 135000.00, 10);
 
-INSERT INTO employee (first_name, last_name, role_id, manager_id)
-VALUES
-('John', 'Lee', 1, 1),
-('James', 'Bond', 2, 2),
-('Eddie', 'Kane', 3, 3),
-('Otis', 'Cross', 4, 4),
-('Mark', 'Williams', 5, 5),
-('Taylor', 'Smith', 6, 6),
-('Johnny', 'Ford', 7, 7),
-('Alex', 'Ridge', 8, 8),
-('Apple', 'Smith', 9, 9),
-('Malcom', 'Fox', 10, 10);
+INSERT INTO roles (title, department_id) 
+VALUES ('HR Manager', 1),
+       ('Recruiter', 1),
+       ('Software Engineer', 2),
+       ('Maintenance Tech', 3),
+       ('Quality Assuarnce Lead', 4),
+
+
+INSERT INTO employees (first_name, last_name, email, phone, role_id, hire_date, salary) VALUES
+(1, 'Abby', 'Days', 'abby.days@example.com', '555-0101', 1, '2023-01-15', 75000),
+(2, 'Carl Lee', 'Smith', 'carl.smith@example.com', '555-0102', 3, '2022-08-22', 85000),
+(3, 'Alieu', 'Danso', 'alieu.danso@example.com', '555-0103', 4, '2024-02-05', 90000),
+(4, 'Brian', 'Talbert', 'brian.talbert@example.com', '555-0104', 6, '2023-11-30', 70000),
+(5, 'Jonathan', 'Jacks', 'jon.jacks@example.com', '555-0105', 8, '2024-03-01', 75000);
