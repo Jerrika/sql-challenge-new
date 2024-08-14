@@ -42,6 +42,10 @@ https://github.com/Jerrika/sql-challenge-new
 
 ## Walkthrough Video:
 
+https://drive.google.com/file/d/14by7YM1knsn7Q5pmNgCfpufvpGio9LJ-/view?usp=sharing
 
 ## Screenshots.
-### Figure 1. Command line interface
+
+/Users/jerrikagabriel/bootcamp/sql-challenge-new/assets/DEMO PSQL.png
+
+
