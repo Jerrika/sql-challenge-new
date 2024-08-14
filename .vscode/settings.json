@@ -1,0 +1,15 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "askForPassword": true,
+            "driver": "PostgreSQL",
+            "name": "Local Instance 3306",
+            "database": "employeetracker_db",
+            "username": "jerrikagabriel",
+            "connectionTimeout": 30
+        }
+    ]
+}
